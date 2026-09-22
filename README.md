@@ -7,6 +7,17 @@ assumptions, and explaining results.
 
 ---
 
+#### [campaign-agent](https://github.com/jamejialicona-cmyk/campaign-agent)
+
+A WhatsApp outreach agent. The model reads each reply; deterministic code
+decides whether to record it, ask again, or hand it to a person. Every
+decision is graded against labelled replies, and missed escalations are
+the one failure it must never produce. Identifiers are stripped before
+anything reaches the model. Its first live campaign is a real one: my
+wedding RSVP.
+
+`TypeScript` · `Claude API` · `evaluation` · `human-in-the-loop` · work in progress
+
 #### [cashflow-engine](https://github.com/jamejialicona-cmyk/cashflow-engine)
 
 A project cash flow engine in pure TypeScript. Give it a contract and it
